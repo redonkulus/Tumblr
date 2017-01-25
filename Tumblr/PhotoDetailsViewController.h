@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoDetailsViewController.h
 //  Tumblr
 //
 //  Created by Seth Bertalotto on 1/25/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PhotoDetailsViewController : UIViewController
 
+@property (nonatomic) NSURL *photoUrl;
 
 @end
-
